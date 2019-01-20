@@ -1,3 +1,20 @@
 .tab-content {
 	padding-top: 15px;
 }
+.flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+.panel {
+	width: 30%;
+}
+.counter {
+	display: inline-block;
+	text-align: center;
+	background: grey;
+	color: white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+}

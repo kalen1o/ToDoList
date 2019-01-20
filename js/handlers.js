@@ -21,8 +21,15 @@ function addFormSubmitHandler(event) {
 		localStorage.setItem(id, JSON.stringify(task));
 
 		addTask(task);
+		addStatistics(task)
 
 		$modalAddTask.modal('hide');
 
 		this.reset();
+}
+
+function removeTasksHandler() {
+	localStorage.clear();
+	addStatistics();
+	$('.list-group-item').remove();
 }
