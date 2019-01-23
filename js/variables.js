@@ -4,4 +4,6 @@ let $formAddTask = $('#formAddTask'),
 	$removeAllTasks = $('#removeAllTasks'),
 	counter_1 = 0,
 	counter_2 = 0,
-	counter_3 = 0;
+	counter_3 = 0,
+	$modalEditTask = $('#modalEditTask'),
+	$formEditTask = $('#formEditTask');

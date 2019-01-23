@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.4.0",
+    "bootstrap-datepicker": "^1.8.0",
     "jquery": "^3.3.1"
   }
 }
